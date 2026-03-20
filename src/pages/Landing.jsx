@@ -1,3 +1,5 @@
+import logo from '../assets/logo.png'
+
 export default function Landing() {
   return (
     <div style={{ background: '#0d0d0d', minHeight: '100dvh', fontFamily: '-apple-system, BlinkMacSystemFont, sans-serif', color: '#f0f0f0' }}>
@@ -8,13 +10,7 @@ export default function Landing() {
 
       {/* Hero */}
       <div style={{ padding: '60px 24px 40px', textAlign: 'center', maxWidth: 480, margin: '0 auto' }} className="fade">
-        <div style={{ fontSize: 64, marginBottom: 16 }}>🔧</div>
-        <div style={{ fontSize: 36, fontWeight: 900, letterSpacing: 2, marginBottom: 4 }}>
-          PRO MOTOR<span style={{ color: '#e63329' }}>'S</span>
-        </div>
-        <div style={{ fontSize: 13, color: '#555', textTransform: 'uppercase', letterSpacing: 3, marginBottom: 24 }}>
-          Mecánica Automotriz
-        </div>
+        <img src={logo} alt="Pro Motor's" style={{ width: 200, marginBottom: 20, borderRadius: 16 }} />
         <div style={{ fontSize: 15, color: '#999', marginBottom: 32, lineHeight: 1.6 }}>
           Servicio profesional de mecánica automotriz en Quilicura.<br/>
           Diagnóstico, mantención y reparación de todo tipo de vehículos.
