@@ -2,25 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  font-family: 'Inter', sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  /* PALETA OSCURO PREMIUM */
-  --bg-main: #111111;       /* Fondo ultra oscuro */
-  --bg-sidebar: #1A1A1A;    /* Sidebar un poco más claro */
-  --bg-card: #242424;       /* Tarjetas y elementos flotantes */
-  
-  --text-primary: #E0E0E0;  /* Texto casi blanco */
-  --text-secondary: #AAAAAA; /* Texto gris para descripciones */
-  
-  --color-accent: #FFC107;   /* Amarillo Dorado (Acento industrial) */
-  --color-accent-hover: #FFD54F;
-  
-  --border-color: #333333;   /* Bordes sutiles */
-  
-  background-color: var(--bg-main);
-  color: var(--text-primary);
+  --accent:     #e63329;
+  --accent-dark:#b82820;
+  --bg:         #f5f5f5;
+  --surface:    #ffffff;
+  --surface2:   #f0f0f0;
+  --border:     #e0e0e0;
+  --border-md:  #d0d0d0;
+  --text-1:     #111111;
+  --text-2:     #555555;
+  --text-3:     #999999;
+  --ok-bg:      #e8f5e9;
+  --ok-text:    #2e7d32;
+  --warn-bg:    #fff8e1;
+  --warn-text:  #f57f17;
+  --err-bg:     #ffebee;
+  --err-text:   #c62828;
+  --info-bg:    #e3f2fd;
+  --info-text:  #1565c0;
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --radius-lg:  14px;
+  --font-sans:  -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
