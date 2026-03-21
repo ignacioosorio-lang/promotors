@@ -24,7 +24,7 @@ export default function Landing() {
       <section style={{ padding: '70px 24px 50px', textAlign: 'center', maxWidth: 560, margin: '0 auto', animation: 'fadeIn 0.8s ease' }}>
         <div style={{ position: 'relative', display: 'inline-block', marginBottom: 28 }}>
           <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', width: 220, height: 220, borderRadius: '50%', background: '#e63329', filter: 'blur(60px)', opacity: 0.12, zIndex: 0 }} />
-          <img src={logo} alt="Pro Motor's" style={{ width: 200, position: 'relative', zIndex: 1, mixBlendMode: 'multiply', filter: 'drop-shadow(0 4px 20px rgba(0,0,0,0.15))' }} />
+          <img src={logo} alt="Pro Motor's" style={{ width: 200, position: 'relative', zIndex: 1, mixBlendMode: 'multiply', mixBlendMode: 'multiply' }} />
         </div>
 
         <div style={{ display: 'inline-block', background: 'rgba(230,51,41,0.08)', border: '0.5px solid rgba(230,51,41,0.25)', borderRadius: 100, padding: '5px 16px', fontSize: 11, color: '#e63329', fontWeight: 700, letterSpacing: 3, textTransform: 'uppercase', marginBottom: 14 }}>
@@ -122,4 +122,5 @@ export default function Landing() {
     </div>
   )
 }
+
 
